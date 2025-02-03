@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KETAS - Kenya Technical Agricultural Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo2.png" alt="KETAS Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#application">Application</a></li>
+            <li><a href="#history">History</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <a href="#login" class="login-btn">Log in</a>
+            <a href="#signup" class="signup-btn">Sign up</a>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to the KETAS Online Store: Your One-Stop Shop for Agricultural Solutions</h1>
+                <div class="search-container">
+                    <input type="text" placeholder="Search for products or services..." class="search-input">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://massivebeestore.com/cdn/shop/files/52_5f2837a2-1dbc-4e0c-baf0-0877359d2c81_1024x1024@2x.png?v=1709211336" alt="Beekeeping">
+            </div>
+        </section>
+
+        <section class="stats-bar">
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <div class="stat-count" id="userCount">0</div>
+                <p>Active Beekeepers</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-headset"></i>
+                <div class="support-badge">24/7</div>
+                <p>Expert Support</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-clock"></i>
+                <div class="operating-hours">
+                    <span id="countdown">8:00</span>
+                    <p>Hours Remaining Today</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-certificate"></i>
+                <div class="stat-count">100%</div>
+                <p>Quality Guaranteed</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <h2>Our Featured Products and Services</h2>
+            <div class="products-container">
+                <div class="product-card beekeeping">
+                    <div class="product-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Beehives & Beekeeping Supplies</h3>
+                    <p>Quality beekeeping equipment and supplies for professional apiaries</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+
+                <div class="product-card farming-tech">
+                    <div class="product-icon">
+                        <i class="fas fa-tractor"></i>
+                    </div>
+                    <h3>Advanced Farming Technology</h3>
+                    <p>Modern solutions for precision agriculture and farm management</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+
+                <div class="product-card water-solutions">
+                    <div class="product-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Water Solutions</h3>
+                    <p>Irrigation systems and water management technologies</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+
+                <div class="product-card agri-supplies">
+                    <div class="product-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>General Agricultural Supplies</h3>
+                    <p>Essential farming tools and agricultural resources</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <div class="why-choose-image">
+                <img src="https://d1g9yur4m4naub.cloudfront.net/images/Article_Images/ImageForArticle_757_1646406361936784.jpg" alt="Why Choose KETAS">
+            </div>
+            <div class="why-choose-content">
+                <h2>Why Choose Us</h2>
+                <div class="reasons">
+                    <div class="reason-item">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="reason-text">
+                            <h3>Expert Guidance</h3>
+                            <p>Access to professional agricultural experts and beekeeping specialists</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <i class="fas fa-award"></i>
+                        <div class="reason-text">
+                            <h3>Quality Products</h3>
+                            <p>Premium agricultural supplies and equipment tested for reliability</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <i class="fas fa-hands-helping"></i>
+                        <div class="reason-text">
+                            <h3>Dedicated Support</h3>
+                            <p>24/7 customer service and technical assistance</p>
+                        </div>
+                    </div>
+                    <div class="reason-item">
+                        <i class="fas fa-truck"></i>
+                        <div class="reason-text">
+                            <h3>Nationwide Delivery</h3>
+                            <p>Fast and reliable delivery services across Kenya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Members Are Saying About Us</h2>
+            <p class="testimonial-subtitle">"KETAS helped me increase my honey production by 50%! Their beehives are top-quality, and their beekeeping training was invaluable."</p>
+            <div class="avatar-stack">
+                <div class="avatar">👨🏾</div>
+                <div class="avatar">👩🏾</div>
+                <div class="avatar">🧑🏾</div>
+                <div class="avatar">👱🏾‍♂️</div>
+                <div class="avatar-count">+99</div>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">👨🏾</div>
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The support and guidance from KETAS has been invaluable. Their expertise in beekeeping has helped me establish a thriving apiary."</p>
+                        <div class="testimonial-author">
+                            <h4>John Kamau</h4>
+                            <span>Beekeeper, Nakuru</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="future-section">
+            <div class="future-content">
+                <h2>The Future of Agriculture with KETAS</h2>
+                <p>KETAS (Kenya Technical Agricultural Solutions) is at the forefront of shaping the future of agriculture in Kenya. We are committed to empowering farmers with innovative solutions and sustainable practices to enhance productivity and ensure food security.</p>
+            </div>
+            <div class="future-image">
+                <img src="https://www.aquahubkenya.co.ke/wp-content/uploads/2023/01/HUB-93.png">
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="newsletter-container">
+                <div class="newsletter-content">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p>Stay updated with our latest agricultural innovations and beekeeping solutions.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email address" class="newsletter-input">
+                        <button type="submit" class="newsletter-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>KETAS Social Media</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Useful Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Our Team</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Agriculture Street, Nairobi</p>
+                    <p><i class="fas fa-phone"></i> +254 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@ketas.co.ke</p>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.818769571661!2d36.8170146!3d-1.2830973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTYnNTkuMiJTIDM2wrA0OScwMS4zIkU!5e0!3m2!1sen!2ske!4v1234567890"
+                        width="100%" 
+                        height="200" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
